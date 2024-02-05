@@ -24,7 +24,7 @@ with st.sidebar:
 st.title("💬 Chatbot: 小红书图文生成")
 st.caption("🚀 A streamlit chatbot powered by InternLM LLM")
 
-mode_name_or_path = '/root/xhs_tuner/Creation_XHS'
+mode_name_or_path = '/home/xlab-app-center/Creation_XHS'
 # mode_name_or_path = '/root/xhs_tuner/internlm2-chat-20b-4bits'
 # mode_name_or_path = '/root/share/model_repos/internlm2-chat-20b-4bits'
 # mode_name_or_path = 'aitejiu/xhs_createation'
