@@ -4,6 +4,9 @@ import torch
 import streamlit as st
 from modelscope import snapshot_download
 from modelscope.models import Model
+from openxlab.model import download
+
+download(model_repo='aitejiu/Creation_XHS', output='/home/xlab-app-center/Creation_XHS')
 
 # 侧边栏中创建标题和链接
 with st.sidebar:
@@ -39,7 +42,7 @@ with st.sidebar:
 st.title("💬 Chatbot: 小红书IP赛道定位导师")
 st.caption("🚀 A streamlit chatbot powered by InternLM LLM")
 
-mode_name_or_path = '/root/xhs_tuner/Creation_XHS'
+mode_name_or_path = '/home/xlab-app-center/Creation_XHS'
 # mode_name_or_path = '/root/xhs_tuner/internlm2-chat-20b-4bits'
 # mode_name_or_path = '/root/share/model_repos/internlm2-chat-20b-4bits'
 # mode_name_or_path = 'aitejiu/xhs_createation'
