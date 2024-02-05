@@ -6,7 +6,6 @@ from io import BytesIO
 from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
 import torch
 import streamlit as st
-from modelscope import snapshot_download
 
 # 侧边栏中创建标题和链接
 with st.sidebar:
