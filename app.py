@@ -2,8 +2,6 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
 import torch
 import streamlit as st
-from modelscope import snapshot_download
-from modelscope.models import Model
 from openxlab.model import download
 
 download(model_repo='aitejiu/Creation_XHS', output='/home/xlab-app-center/Creation_XHS')
