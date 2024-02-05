@@ -2,3 +2,5 @@ transformers
 streamlit
 openxlab
 zhipuai 
+sentencepiece
+einops
